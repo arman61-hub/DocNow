@@ -10,7 +10,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "DocNow Backend is the **secure and scalable** API powering **DocNow**, a modern healthcare appointment and prescription management system.  \r It handles **user authentication, doctor profiles, appointment bookings, prescriptions, and payments**, ensuring a seamless healthcare experience.",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
