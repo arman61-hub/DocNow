@@ -104,7 +104,7 @@
 - Cloudinary
 - JWT Authentication
 - Multer
-- Razorpay (Payments)
+- Razorpay, Stripe (Payments)
 
 ### 🎨 Frontend & Admin Panel
 - React.js
@@ -113,7 +113,7 @@
 - Axios
 - lucide-react
 - react-toastify
-- Razorpay Checkout
+- Razorpay and Stripe Checkout
 
 ---
 
@@ -140,7 +140,9 @@ ADMIN_PASSWORD = ''
 JWT_SECRET = ''
 RAZORPAY_KEY_ID = ''   
 RAZORPAY_KEY_SECRET = '' 
+STRIPE_SECRET_KEY = ''
 CURRENCY = ''
+FRONTEND_URL = ''
 ```
 Start the backend server:
 ```bash
@@ -155,6 +157,7 @@ Set up environment:
 ```bash
 VITE_BACKEND_URL = ''
 VITE_RAZORPAY_KEY_ID = ''
+VITE_STRIPE_PUBLISHABLE_KEY = ''
 VITE_CURRENCY = ''
 ```
 Start the frontend:
@@ -168,7 +171,7 @@ npm run dev
 - Register/Login
 - Browse doctors
 - Book/reschedule appointments
-- Pay securely via Razorpay
+- Pay securely via Razorpay, Stripe
 
 ### 👨‍⚕️ Doctors
 - Login with doctor credentials
@@ -203,7 +206,7 @@ npm run dev
 - `PUT /api/appointments/:id` – Reschedule/cancel an appointment  
 
 ### 💳 Payments
-- `POST /api/payments` – Process payments via Razorpay  
+- `POST /api/payments` – Process payments via Razorpay, Stripe 
 - `GET /api/payments/:id` – Get payment status  
 
 📌 More endpoints available in API documentation.
